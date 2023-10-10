@@ -1,239 +1,606 @@
-<!DOCTYPE html>
 <html lang="en">
+  <html lang="en">
   <head>
 <meta charset="UTF-8"/>
     <meta name="Portfolio" content="Project"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <title>Landing Page</title>
+    <title>Blog</title>
      <!-------------------------Font Awesome Icons --------------->  
   <script src="https://kit.fontawesome.com/dad03e859c.js" crossorigin="anonymous"></script>
-
-   <!-------------------------AOS Library ------------------------->
- 
-   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  
-   <!-----------x--------------AOS Library ---------x---------------->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css'>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     
-  </head>
-  <body>
-    <nav class="nav">
-      <div class="nav-menu flex-row">
-        <div class="nav-brand">
-          <a href=""><img src="https://i.postimg.cc/vTMVbdHb/Group-7.png" alt="logo"></a>
-          </div>
-
-          <div class="toggle-collapse">
-            <div class="toggle-icons">
-            <i class="fas fa-bars"></i>
-            </div>
-          </div>
-          
-        <div>
-        <ul id="nav-items">
-          <li class="nav-link"><a href=""> Home</a></li>
-          <li class="nav-link"><a href=""> Products</a></li>
-          <li class="nav-link"><a href="">Careers</a></li>
-          <li class="nav-link"><a href="">Contact Us</a></li>
-          <li class="nav-link"><a href=""> Join Us <i class="fa-brands fa-linkedin-in"></i></a></li>
-          
-        </ul>
-      </div>
-         
-          </div>  
-        </nav>
-
-
-    <!-- width="1498" -->
-      <!-- width="1820" -->
-      <!-- height="840" -->
-    <section class="custom-section-svg section-2">
-    <svg
-       xmlns="http://www.w3.org/2000/svg"
-       width="1820"
-       height="840"
-       viewBox="0 0 481.54166 222.25"
-       version="1.1"
-       style="background: url(https://images.pexels.com/photos/2422287/pexels-photo-2422287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); 
-       background-repeat: no-repeat; background-size: contain; background-position: top 25% right 0; position: relative; ">
-
-        <g transform="translate(0,-74.749984)">
-            <path style="fill:#0053ce;fill-opacity:0.83417089;stroke-width:0.26458332" 
-            d="M -37.41942,65.027063 V 297.04648 h 555.625 V 65.027063 Z m 385.24418,26.073343 c 5.16568,
-            -0.06559 10.30682,1.828283 14.17588,5.697327 l 22.51077,22.510767 c 2.81369,2.8137 7.10706,
-            1.33438 7.86464,-2.23708 2.21908,-6.43973 5.15977,-13.60111 8.76741,-17.208757 10.10198,
-            -10.101963 25.7768,-10.300582 35.62522,-0.452167 9.84843,9.848414 9.64978,
-            25.523244 -0.45217,35.625204 -3.60765,3.60766 -10.76936,6.54852 -17.20929,
-            8.76743 -3.57201,0.75699 -4.34764,5.75355 -2.23655,7.86463 l 29.54549,29.54549 c 7.73808,
-            7.73808 7.57481,20.56352 -0.36227,28.50058 l -17.31727,17.31729 c -4.32922,4.32922 -12.15765,
-            3.7166 -14.93552,-1.94717 -2.07338,-4.96117 -4.86992,-9.19938 -6.98047,-11.3099 -9.8484,
-            -9.84841 -25.52375,-9.64979 -35.62572,0.45217 -10.10177,10.10177 -10.3006,25.77732 -0.45218,
-            35.62573 2.11053,2.11053 6.34937,4.90595 11.30941,6.98045 4.94276,3.49888 6.27689,10.60629 1.94767,
-            14.93552 l -17.31729,17.31729 c -7.93724,7.93726 -20.76249,8.09984 -28.50057,0.36174 l -84.41553,
-            -84.41552 c -7.7381,-7.7381 -7.57482,-20.56301 0.36225,-28.50007 l 79.37139,-79.371375 v -5.16e-4 c 3.96862,
-            -3.968627 9.15901,-5.993473 14.3247,-6.059063 z" />
-            <path style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26052347;stroke-opacity:1" 
-            d="m 314.90636,266.1817 0.0512,0.0512 h 71.61114 v 0 c -23.89724,-0.003 -47.7139,0.007 -71.61114,
-            0 z m 71.66229,0.0512 c 0,0 -0.0376,2.36455 -1.54522,4.09644 -5.94783,6.83282 -18.34141,18.62228 -18.34141,
-            18.62228 -7.93727,7.93727 -20.76199,8.23348 -28.50007,0.49537 L 314.95751,
-            266.23286 H -43.089358 v 31.34279 H 521.98518 v -31.34279 z" id="rect857" />
-        </g>
-    </svg>
+    <!-------------------------Owl Carousel ------------------------->
  
-    <div class="container">
-        <div class="container-div">
-              <h1>DOES YOUR  BUSINESS NEED TO EXPAND & SCALE?</h1>
-                <p>We provide affordable, easy-to-use tech applications and  apps for SME's and Large Enterprises</p>
- <button> GET STARTED NOW</button>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!----------x---------------Owl Carousel --------x----------------->
+
+  </head>
+
+
+<body>
+  <header>
+    <div class="logo-div">
+      <img src="https://i.postimg.cc/1tQQ8dMh/Group-5.png" alt="logo" class="business-logo">
+               
+    </div>
+   
+    <ul id="nav-list">
+      <li><a href="" class="active">Home</a></li>
+      
+      <li><a href="">Team <i class="fa-solid fa-chevron-down"></i></a>
+        <div class="sub-menu-1">
+      <ul>
+          <li><a href="#">Agencies</a></li>
+        <li> <a href="#">Design</a></li>
+        <li><a href="#">Marketing</a></li>
+        <li><a href="#">Construction</a></li>
+        <li> <a href="#">Product</a></li>
+        <li><a href="#">Software</a></li>
+
+          </ul>
+    </div>
+      </li>
+      <li><a href="">Product<i class="fa-solid fa-chevron-down"></i></a>
+        <div class="sub-menu-1">
+      <ul>
+          <li><a href="#">CRM</a></li>
+        <li> <a href="#">Agile</a></li>
+        <li><a href="#">Workflow</a></li>
+        <li><a href="#">Goal</a></li>
+        <li> <a href="#">Note Taking</a></li>
+        <li><a href="#">Using ClickThrough</a></li>
+
+          </ul>
+    </div>
+      </li>
+      <li><a href="">Topics<i class="fa-solid fa-chevron-down"></i></a>
+        <div class="sub-menu-1">
+      <ul>
+          <li><a href="#">Productivity</a></li>
+        <li> <a href="#">Remote Work</a></li>
+        <li><a href="#">Work Life</a></li>
+        <li><a href="#">Software</a></li>
+        <li> <a href="#">Time Management</a></li>
+        <li><a href="#">Project Management</a></li>
+
+          </ul>
+    </div>
+      </li>
+      <li><a href="">News<i class="fa-solid fa-chevron-down"></i></a>
+        <div class="sub-menu-1">
+      <ul>
+          <li><a href="#">Event</a></li>
+        <li> <a href="#">Announcement</a></li>
+        <li><a href="#">Press Releases</a></li>
+        <li><a href="#">Features Releases</a></li>
+          </ul>
+    </div>
+      </li>
+      <li class="close2"><a href="#" id="close"><i class="fa-regular fa-rectangle-xmark"></i></a></li>
+      <button class="btn-mobile">Get Started</button>
+    </ul>
+   
+    <label><input type="text" placeholder="Search"><i class="fas fa-search search"></i>
+    </label>
+    
+    <button class="btn get-started">Get Started</button>
+    
+    
+    <div class="toggle-collapse">
+            <div class="toggle-icons">
+<!--              <i class="fa fa-search search"></i> -->
+                <i id="bar" class="fas fa-bars"></i>
             </div>
         </div>
-      </section>
-<!-- <hr> -->
+  </header>
+
+
+
 <section class="section-1">
-  <div class="row">
-  <div class="mission-container">
-  <div class="mission float">
-    <img src="https://images.pexels.com/photos/5324973/pexels-photo-5324973.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Mission" width="300">
-    <div class="mission-content">
-      <h4>Mission</h4>
-      <p>Building accessible tech to Structure & Scale-up up African Businesses!</p>
+	
+  <div class="project-section">
+    
+	<div class="project">
+	<h2>Project <br> Management <br> tips & <br> trends, <br> delivered. </h2>
+	<p>Join productivity hackers from around the world that receive
+ ThroughClick—the ClickThrough Blog Newsletter.</p>
+<label><input type="text" placeholder="Email"></label>
+<button class="btn">Subscribe</button>
+	<div class="social">
+	<h6>Follow us on:</h6>	
+		<div style="padding-top: 20px;">	
+		<a href=""><i class="fa-brands fa-facebook-f"></i></a>
+		<a href=""><i class="fa-brands fa-instagram"></i></a>
+		<a href=""><i class="fa-brands fa-twitter"></i></a>
+    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+		</div>
+		</div>	
+	</div>
+	
+	<div class="project project-picture-section">
+    <div class="team">
+		<a href=""><img src="https://i.postimg.cc/GpjXZ9VD/team.png" alt="image" class="image"></a>
+		
+      <h3>ClickThrough change the game of Software Development Team </h3>
+	<div class="topset">
+	<div class="profile-sec">	
+	<div class="profile" >
+	<a href=""><img src="https://images.pexels.com/photos/10375901/pexels-photo-10375901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="profile-picture" /></a>
+	</div>
+		<h6>Olayinka O.</h6>
+		</div>
+			
+			<div class="profile-sec">
+        <i class="fa-regular fa-clock"></i>
+			<h6>Max 5min read</h6>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+  </div>
+  
+</section>
+	
+	<section class="section-2 section-space">
+	
+	<div class="articles">
+	<div class="icons-div">	
+	<ion-icon name="book-outline"></ion-icon>
+	<h6>Articles</h6>	
+	
+	</div>
+		
+		<div class="recent">	
+		<button>RECENT</button>
+		<button>POPULAR</button>
+		</div>
+		</div>
+		
+		<div class="flex-sec">
+      
+      <div class="blog1">
+		<a href=""><img src="https://img.freepik.com/free-vector/cartoon-coworking-space-illustration_23-2148819268.jpg?w=740&t=st=1683625943~exp=1683626543~hmac=a2accd92839eba98b485fc4f82c7cfceed39302fc56070b8ca9634ca32416187" alt="image2" width="100%" height="auto"></a>
+		<div>
+<h5>PRODUCTIVITY</h5>
+<h3><a href="">Want to Increase Employee productivity? Start by Defining It.</a></h3>
+	<div class="topset">
+	<div class="profile-sec">	
+	<div class="profile" >
+	<a href=""><img src="https://images.pexels.com/photos/10375901/pexels-photo-10375901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="profile-picture" /></a>
+	</div>
+		<h6>Olayinka O.</h6>
+		</div>
+			
+			<div class="profile-sec">
+        <i class="fa-regular fa-clock"></i>
+			<h6>Max 5min read</h6>
+			</div>
+			</div>
+		</div>
+	</div>
+			
+		
+		<div class="blog2">
+		
+		<div class="topset2">
+        <h5>NEWS</h5>
+			<h3><a href="">Smarter Form Powered by Conditional Logic Support Your Most Complex Workflows</a></h3>
+	
+			<div class="profile-post">
+		
+			<div style="display: flex;">
+			<i class="fa-regular fa-clock"></i>
+      <p>Max 5min read</p>
+			</div>
+		
+		<div class="profile-sec">	
+	<div class="profile" >
+	<a href=""><img src="https://images.pexels.com/photos/10375901/pexels-photo-10375901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="profile-picture" /></a>
+	</div>
+		<h6>Olayinka O.</h6>
+		</div>
+				</div>
+		</div>
+      
+			<div>
+			<a href=""><img src="https://images.pexels.com/photos/2777898/pexels-photo-2777898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image3" class="image3"></a>
+      </div>
+	</div>
+			
+	
+<div class="blog2">
+		
+		<div class="topset2">
+        <h5>NEWS</h5>
+			<h3><a href="">Smarter Form Powered by Conditional Logic Support Your Most Complex Workflows</a></h3>
+	
+			<div class="profile-post">
+		
+			<div style="display: flex;">
+			<i class="fa-regular fa-clock"></i>
+      <p>Max 5min read</p>
+			</div>
+		
+		<div class="profile-sec">	
+	<div class="profile" >
+	<a href=""><img src="https://images.pexels.com/photos/10375901/pexels-photo-10375901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="profile-picture" /></a>
+	</div>
+		<h6>Olayinka O.</h6>
+		</div>
+				</div>
+		</div>
+      
+			<div>
+			<a href=""><img src="https://images.pexels.com/photos/2777898/pexels-photo-2777898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image3" class="image3"></a>
+      </div>
+	</div>
+			
+	
+		<div class="blog1">
+		<a href=""><img src="https://img.freepik.com/free-vector/cartoon-coworking-space-illustration_23-2148819268.jpg?w=740&t=st=1683625943~exp=1683626543~hmac=a2accd92839eba98b485fc4f82c7cfceed39302fc56070b8ca9634ca32416187" alt="image2" width="100%" height="auto"></a>
+		<div>
+<h5>PRODUCTIVITY</h5>
+<h3><a href="">Want to Increase Employee productivity? Start by Defining It.</a></h3>
+	<div class="topset">
+	<div class="profile-sec">	
+	<div class="profile" >
+	<a href=""><img src="https://images.pexels.com/photos/10375901/pexels-photo-10375901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="profile-picture" /></a>
+	</div>
+		<h6>Olayinka O.</h6>
+		</div>
+			
+			<div class="profile-sec">
+        <i class="fa-regular fa-clock"></i>
+			<h6>Max 5min read</h6>
+			</div>
+			</div>
+		</div>
+	</div>
+			
+			
+		</div>
+<!--     .................... -->
+    
+    <div class="flex-sec">
+			<div class="blog1">
+		<a href=""><img src="https://img.freepik.com/free-vector/cartoon-coworking-space-illustration_23-2148819268.jpg?w=740&t=st=1683625943~exp=1683626543~hmac=a2accd92839eba98b485fc4f82c7cfceed39302fc56070b8ca9634ca32416187" alt="image2" width="100%" height="auto"></a>
+		<div>
+<h5>PRODUCTIVITY</h5>
+<h3><a href="">Want to Increase Employee productivity? Start by Defining It.</a></h3>
+	<div class="topset">
+	<div class="profile-sec">	
+	<div class="profile" >
+	<a href=""><img src="https://images.pexels.com/photos/10375901/pexels-photo-10375901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="profile-picture" /></a>
+	</div>
+		<h6>Olayinka O.</h6>
+		</div>
+			
+			<div class="profile-sec">
+        <i class="fa-regular fa-clock"></i>
+			<h6>Max 5min read</h6>
+			</div>
+			</div>
+		</div>
+	</div>
+			
+			
+			<div class="blog1">
+		<a href=""><img src="https://img.freepik.com/free-vector/cartoon-coworking-space-illustration_23-2148819268.jpg?w=740&t=st=1683625943~exp=1683626543~hmac=a2accd92839eba98b485fc4f82c7cfceed39302fc56070b8ca9634ca32416187" alt="image2" width="100%" height="auto"></a>
+		<div>
+<h5>PRODUCTIVITY</h5>
+<h3><a href="">Want to Increase Employee productivity? Start by Defining It.</a></h3>
+	<div class="topset">
+	<div class="profile-sec">	
+	<div class="profile" >
+	<a href=""><img src="https://images.pexels.com/photos/10375901/pexels-photo-10375901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="profile-picture" /></a>
+	</div>
+		<h6>Olayinka O.</h6>
+		</div>
+			
+			<div class="profile-sec">
+        <i class="fa-regular fa-clock"></i>
+			<h6>Max 5min read</h6>
+			</div>
+			</div>
+		</div>
+	</div>
+			
+			
+			<div class="blog1">
+		<div class="icons-mail">	
+	<ion-icon name="mail-outline"></ion-icon>
+	
+	</div>
+		
+        <div class="subscribe-div">
+			<h3 class="subscribe-h">Subscribe to our blog </h3>
+			<p class="subscribe-p">Get the lastest post in your email</p>
+        </div>
+        
+        <div class="label-div">
+        <div class="label">			
+	<input type="text" placeholder="Enter your email address">
+	</div>
+	<div class="btn-div" >				
+	<button class="btn">Subscribe</button>
+	</div>
+        </div>        
+	</div>
+	
+
+			
+			<div class="blog1">
+		<a href=""><img src="https://img.freepik.com/free-vector/cartoon-coworking-space-illustration_23-2148819268.jpg?w=740&t=st=1683625943~exp=1683626543~hmac=a2accd92839eba98b485fc4f82c7cfceed39302fc56070b8ca9634ca32416187" alt="image2" width="100%" height="auto"></a>
+		<div>
+<h5>PRODUCTIVITY</h5>
+<h3><a href="">Want to Increase Employee productivity? Start by Defining It.</a></h3>
+	<div class="topset">
+	<div class="profile-sec">	
+	<div class="profile" >
+	<a href=""><img src="https://images.pexels.com/photos/10375901/pexels-photo-10375901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="profile-picture" /></a>
+	</div>
+		<h6>Olayinka O.</h6>
+		</div>
+			
+			<div class="profile-sec">
+        <i class="fa-regular fa-clock"></i>
+			<h6>Max 5min read</h6>
+			</div>
+			</div>
+		</div>
+	</div>
+			
+			
+			
+			<div class="blog1">
+		<a href=""><img src="https://img.freepik.com/free-vector/cartoon-coworking-space-illustration_23-2148819268.jpg?w=740&t=st=1683625943~exp=1683626543~hmac=a2accd92839eba98b485fc4f82c7cfceed39302fc56070b8ca9634ca32416187" alt="image2" width="100%" height="auto"></a>
+		<div>
+<h5>PRODUCTIVITY</h5>
+<h3><a href="">Want to Increase Employee productivity? Start by Defining It.</a></h3>
+	<div class="topset">
+	<div class="profile-sec">	
+	<div class="profile" >
+	<a href=""><img src="https://images.pexels.com/photos/10375901/pexels-photo-10375901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="profile-picture" /></a>
+	</div>
+		<h6>Olayinka O.</h6>
+		</div>
+			
+			<div class="profile-sec">
+        <i class="fa-regular fa-clock"></i>
+			<h6>Max 5min read</h6>
+			</div>
+			</div>
+		</div>
+	</div>
+			
+			
+	
+	<div class="blog1">
+		<a href=""><img src="https://img.freepik.com/free-vector/cartoon-coworking-space-illustration_23-2148819268.jpg?w=740&t=st=1683625943~exp=1683626543~hmac=a2accd92839eba98b485fc4f82c7cfceed39302fc56070b8ca9634ca32416187" alt="image2" width="100%" height="auto"></a>
+		<div>
+<h5>PRODUCTIVITY</h5>
+<h3><a href="">Want to Increase Employee productivity? Start by Defining It.</a></h3>
+	<div class="topset">
+	<div class="profile-sec">	
+	<div class="profile" >
+	<a href=""><img src="https://images.pexels.com/photos/10375901/pexels-photo-10375901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="profile-picture" /></a>
+	</div>
+		<h6>Olayinka O.</h6>
+		</div>
+			
+			<div class="profile-sec">
+        <i class="fa-regular fa-clock"></i>
+			<h6>Max 5min read</h6>
+			</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+    <div class="load">
+     <button class="btn">Load More</button>
     </div>
-  </div>
-
-  <div class="vision float">
-    <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Vision" width="300">
-    <div class="mission-content">
-      <h4>Vision</h4>
-      <p>Building a Friction-free Africa attractive for reverse migration</p>
+	</section>
+  
+  <section class="features section-space">
+    <div class="features-div">
+      <div class="features-writer">
+        <i class="fa-solid fa-people-group"></i>
+        <h6>Featured Developers</h6>
+      </div>
+      
+    <div class="pagination">
+      <i class="fa-solid fa-arrow-left-long"></i>
+      <i class="fa-solid fa-arrow-right-long"></i>
     </div>
-  </div>
+    </div>
+    
+    <div class="team-blog owl-carousel owl-theme" >
+      <div class="team-sec item">
+        <div>
+        <img src="https://i.postimg.cc/j58G8L9C/3.png" alt="team1">
+        </div>
+        <div class="team-content">
+        <h4>Carlie Doe</h4>
+        <p>Web Developer</p>
+        </div>
+      </div>
+      
+      <div class="team-sec item">
+        <div>
+        <img src="https://i.postimg.cc/bJQrpD1z/2.png" alt="team1">
+        </div>
+        <div class="team-content">
+        <h4>Smith Author</h4>
+        <p>Software Developer</p>
+        </div>
+      </div>
+      
+      <div class="team-sec item">
+        <div>
+        <img src="https://i.postimg.cc/PJSt5mJk/1.png" alt="team1">
+        </div>
+        <div class="team-content">
+        <h4>Moore Swift</h4>
+        <p>UI/UX Developer</p>
+        </div>
+      </div>
+    </div>
 
-  <img src="https://i.postimg.cc/sX2Lhd0W/puzzle-and-dots.png" alt="" class="puzzle">
-  </div>
+  </section>
+  
+  <section class="videos section-space">
+    
+    <div class="videos-div">
+      <div class="features-div">
+      <div class="features-writer">
+        <i class="fa-brands fa-youtube"></i>
+        <h6>Videos</h6>
+      </div>
+    </div>
+      
+      <div id="video-id">
+<iframe id="video" src="https://www.youtube.com/embed/FPEP4waYQEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+    </div>
+      
+    </div>
+  </section>
+  
+  <section class="newsetter section-space">
+    
+    <div class="news">
+      
+      <h2>Receive the lastest ClickThrough <br>Newsletter Updates.</h2>
+      
+      <div class="label-div">
+  			
+        <label><i class="fa-solid fa-envelope-open"></i><input type="text" placeholder="Enter your email address"></label>
+					
+	<button class="btn">Subscribe</button>
+	
+        </div>        
+    </div>
+    
+  </section>
+  
+  <section class="support section-space">
+    
+    <div class="support-div">
+        <div>
+        <i class="fa-brands fa-empire"></i>
+        </div>
+        <div class="">
+          <h4><strong>Free Training</strong> & <a>24-hour Support</a></h4>
+        
+        </div>
+      </div>
+      
+      <div class="support-div">
+        <div>
+        <i class="fa-solid fa-shield-halved"></i>
+        </div>
+        <div class="">
+          <h4>Serious about <a><strong>Security & Privary<strong></a></h4>
+        </div>
+      </div>
+      
+      <div class="support-div">
+        <div>
+        <i class="fa-solid fa-clock-rotate-left"></i>
+        </div>
+        <div class="">
+          <h4><a><strong>99.99% uptime</strong></a> the last 12months</h4>
+        </div>
+      </div>
+  </section>
+  
+  <footer class="section-space">
+    <div class="col">
+      <h4>ClickThrough</h4>
+      
+        <a href="">Product</a>
+        <a href="">Pricing</a>
+       <a href="">Templates</a>
+       <a href="">Download</a>
+        <a href=""> Career</a>
+        <a href="">About Us</a>
+    </div>
+    
+    <div class="col">
+      <h4>Blog Library</h4>
+      <a href="">Agencies</a>
+        <a href="">Agile</a>
+       <a href="">CRM</a>
+       <a href="">Kanbann</a>
+        <a href="">UI/UX</a>
+        <a href="">Software Development</a>
+    </div>
+    
+    <div class="col">
+      <h4>Work Guides</h4>
+      <a href="">Sprint Planning</a>
+        <a href="">Goals for Work</a>
+       <a href="">CRM Project Management</a>
+       <a href="">Resource Allocation</a>
+        <a href=""> Team Building Activities</a>
+        <a href="">Workload Management</a>
+    </div>
+    
+    <div class="col">
+      <h4>Templates</h4>
+      <a href="">SOP Templates</a>
+        <a href="">CRM Templates</a>
+       <a href="">Gant Chart Templates</a>
+       <a href="">Meeting Agenda Templates</a>
+        <a href="">Process Mapping Templates</a>
+        <a href="">Product Manager Templates</a>
+    </div>
+    
+    <div class="col">
+      <h4>ClickThrough Guides</h4>
+      <a href="">ClickThrough AI</a>
+        <a href="">CRM in ClickThrough</a>
+       <a href="">Templates</a>
+       <a href="">ClickThrough University</a>
+        <a href=""> ClickThrough's API Guide</a>
+        <a href="">ClickThrough Dashboard Examples</a>
+    </div>
+    
+  </footer>
+        
+        <section class="copyright section-space">
+          
+          <div class="logo">
+            <img src="https://i.postimg.cc/1tQQ8dMh/Group-5.png" alt="logo" class="logo-footer">
+      <p> © 2023 All rights reserved! made by Tunrayo </p>
+          </div>
+          
+          <div class="social">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+		<a href=""><i class="fa-brands fa-instagram"></i></a>
+		<a href=""><i class="fa-brands fa-twitter"></i></a>
+    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </section>
+  
+  <!-------------------------Owl Carousel ------------------------->
 
-  <div class="about">
-    <span>WHO WE ARE</span>
-    <h2>We ClickThrough make running a business a breeze by developing 
-      smart technology that simplifies tasks, streamlines operations, 
-      and boosts efficiency and profits.</h2>
-      <h4>Click that's what we do! We'll take care of the technical side of things, so you can focus on the fun 
-        part of running your business. Let's work together to make your business soar!</h4>
-        <a href="">Learn More... <i class="fa-solid fa-arrow-right"></i></a>
-  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-</div>
-</section>
-   
-<hr>
+<!-----------x--------------Owl Carousel --------x----------------->
 
-<section class="banner">
-  <div class="container">
-  <span class="d-block"></span>
-    <h4>We Can Help</h4>
-    <h2>LET'S SHOW YOU HOW WE <br>CAN USE TECH TO GROW <br> YOUR BUSINESS !</h2>
-  </div>
-  <div class="btn">
-    <button>GET STARTED NOW</button>
-  </div>
-</section>
-
-<hr>
-
-<section class="solution">
-<div class="sp">
-  <span>SOLUTION PROVIDER</span>
-  <h2>We focus on bringing value and solve business main challenges</h2>
-  <a href="">Learn More... <i class="fa-solid fa-arrow-right"></i></a>
-</div>
-
-<div class="services">
-  <div class="image">
-    <img src="https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="img-fluid">
-    <h4>ECOMMERCE</h4>
-  </div>
-
-  <div class="image">
-    <img src="https://images.pexels.com/photos/3796810/pexels-photo-3796810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="img-fluid">
-    <h4>HOSPITALITY</h4>
-  </div>
-
-  <div class="image">
-    <img src="https://cdn.pixabay.com/photo/2016/03/29/18/37/seo-1288976_960_720.jpg" alt="" class="img-fluid">
-    <h4>SEARCH FUNCTIONALITY</h4>
-  </div>
-
-  <div class="image">
-    <img src="https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="img-fluid">
-    <h4>RESPONSIVE THEMES</h4>
-  </div>
-
-  <div class="image">
-    <img src="https://cdn.pixabay.com/photo/2017/03/06/15/49/domain-2121820_960_720.jpg" alt="" class="img-fluid">
-    <h4>CUSTOM DOMAIN</h4>
-  </div>
-</div>
-</section>
-
-
-<footer class="footer">
-<div class="footer-body">
-  <div class="address">
-    <h4>OUR ADDRESS</h4>
-    <p>Lagos,Nigeria</p>
-  </div>
-
-  <div class="contact">
-    <h4>OUR CONTACTS</h4>
-    <p>Support</p>
-    <h2><a href="">07066072180</a></h2>
-
-    <p>Sales</p>
-    <h2><a href="">07058212965</a></h2>
-  </div>
-
-  <div class="link">
-    <h4>USEFUL LINKS</h4>
-   <a href="">Products</a>
-   <a href="">Careers</a>
-  </div>
-
-  <div class="services1">
-    <h4>OUR SERVICES</h4>
-    <a href="">Product Designer</a>
-    <a href="">Frontend Developer</a>
-    <a href="">Designer</a>
-   </div>
-
-   <div class="about">
-    <h4>ABOUT</h4>
-    <a href="">About Us</a>
-    <a href="">Send a Message</a>
-   </div>
-
-   <div class="social">
-    <h4>SOCIAL</h4>
-    <ul>
-   <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-   <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-   <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
-   <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-   </ul>
-   </div>
-</div>
-<div>
-<hr>
-<div class="copyright">
-  <a href=""><img src="https://i.postimg.cc/Jz0ZVFfB/Group-7-1.png" alt=""></a>
-  <h4>ClickThrough  © 2023 by Tunrayo. All Right Reserved. </h4>
-</div> 
-</div>
-</footer>
+<!-------------------------Script ------------------------->
 
 <script src="script.js"></script>
-  </body>
-</html>
 
-
+    </body>
+  </html>
