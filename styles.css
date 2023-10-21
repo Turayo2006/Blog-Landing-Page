@@ -12,17 +12,17 @@ html {
 }
 
 body{
-  width: 100%;
-  font-family: inherit;
-  background: linear-gradient(150deg, #E7EFF4 18%, #F9FAFA 30.2%);  
-  background-image: 
-    radial-gradient(at 9% 89%, hsla(315, 90%, 93%, 1) 0px, transparent 50%),
-    radial-gradient(at 72% 6%, hsla(331, 74%, 64%, 1) 0px, transparent 50%),
-    radial-gradient(at 24% 19%, hsla(14, 90%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 65% 6%, hsla(6, 79%, 76%, 1) 0px, transparent 50%),
-    radial-gradient(at 20% 98%, hsla(316, 72%, 64%, 1) 0px, transparent 50%),
-    radial-gradient(at 44% 9%, hsla(40, 96%, 77%, 1) 0px, transparent 50%),
-    radial-gradient(at 10% 9%, hsla(76, 65%, 93%, 1) 0px, transparent 50%);
+    width: 100%;
+    font-family: inherit;
+    background: linear-gradient(150deg, #E7EFF4 18%, #F9FAFA 30.2%);  
+    background-image: 
+      radial-gradient(at 9% 89%, hsla(315, 90%, 93%, 1) 0px, transparent 50%),
+      radial-gradient(at 72% 6%, hsla(331, 74%, 64%, 1) 0px, transparent 50%),
+      radial-gradient(at 24% 19%, hsla(14, 90%, 74%, 1) 0px, transparent 50%),
+      radial-gradient(at 65% 6%, hsla(6, 79%, 76%, 1) 0px, transparent 50%),
+      radial-gradient(at 20% 98%, hsla(316, 72%, 64%, 1) 0px, transparent 50%),
+      radial-gradient(at 44% 9%, hsla(40, 96%, 77%, 1) 0px, transparent 50%),
+      radial-gradient(at 10% 9%, hsla(76, 65%, 93%, 1) 0px, transparent 50%);
 }
 
 
@@ -429,18 +429,18 @@ margin-top: 40px;
   background-color: #ffffff;   
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
   border-radius: 4px;
-  width: 400px;
+  width: 350px;
   margin-top: 40px;
 }
 
 .blog1 h5{
-  font-size: 16px; 
+  font-size: 14px; 
   padding: 5px 30px; 
   color: #0e0e0e;
 }
 
 .blog1 h3 {
- font-size: 22px; 
+ font-size: 20px; 
   padding: 5px 30px; 
   color: #0e0e0e
 }
@@ -464,13 +464,13 @@ margin-top: 40px;
 
 .blog1 .topset h6{
 padding: 35px 20px 5px 0; 
-font-size: 14px; 
+font-size: 12px; 
 font-weight: 500; 
 color: #0e0e0e;
 }
 
 .blog1 .topset i{
-font-size: 22px; 
+font-size: 20px; 
 padding: 30px 20px 0 10px;
 color: #0e0e0e;
 }
@@ -495,13 +495,13 @@ color: #0e0e0e;
   margin-top: 100px
 }
 .blog1 .subscribe-h{
-  font-size: 24px; 
+  font-size: 22px; 
   padding: 10px 20px 0 30px; 
   color: #545454;
 }
 
 .blog1 .subscribe-p{
-  font-size: 16px; 
+  font-size: 14px; 
   padding: 10px 0 0 30px; 
   color: #0e0e0e;
 }
@@ -513,7 +513,7 @@ color: #0e0e0e;
 .blog1 input{
 height: 4rem; 
 width: 100%; 
-font-size: 16px; 
+font-size: 14px; 
 padding: 0 1.25em; 
 border: 1px solid #eee; 
 border-radius: 4px; 
@@ -529,7 +529,7 @@ box-shadow: 0 3px 1px -2px #ccc, 0 2px 2px 0 #ccc, 0 1px 5px 0 #ccc;
   width: 95%; 
   height: 60px; 
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   padding: 5px 10px; 
   font-weight: bold; 
   cursor: pointer; 
@@ -553,25 +553,25 @@ margin-top: 40px;
 
 .blog2 .topset2{
 background-color: #ffffff; 
-width: 400px; 
-height: 620px; 
+width: 350px; 
+height: 450px; 
 border-radius: 4px; 
 border-top-right-radius: 0; 
 border-top-left-radius: 0;
 }
 
 .blog2 .image3{
-  width: 400px;
+  width: 350px;
   height: 100%;
 }
 .blog2 h5{
-font-size: 14px; 
+font-size: 12px; 
 padding: 30px 30px; 
 color:#328BCE;
 }
 
 .blog2 h3 {
- font-size: 24px; 
+ font-size: 20px; 
  padding: 5px 30px; 
   line-height: 1.5;
 }
@@ -590,13 +590,13 @@ color:#328BCE;
 
 .blog2 .topset2 h6{
 padding: 35px 20px 5px 30px; 
-font-size: 14px; 
+font-size: 12px; 
 font-weight: 500; 
 color: #0e0e0e;
 }
 
 .blog2 .topset2 i{
-font-size: 22px; 
+font-size: 20px; 
 padding-right: 50px;
 color: #0e0e0e;
 }
@@ -607,7 +607,7 @@ color: #0e0e0e;
 }
 
 .blog2 .profile-sec{
-  margin-top: 250px
+  margin-top: 200px
 }
 
 .load{
@@ -864,10 +864,27 @@ color: #545454
   color: #ff5588
 }
 
+/* -------------------- Viewport less than or equal to 1280px --------*/
+@media screen and (max-width:1280px){
+    header ul li i{
+        font-size: 12px;
+    }
+
+    header li a{
+        font-size: 14px;
+    }
+
+}
+
 
 /* -------------------- Viewport less than or equal to 750px --------*/
 
 @media screen and (max-width: 769px){
+
+    header .business-logo{
+        width: 6rem;
+          }
+
   header{
     padding: 20px 10px;
   }
@@ -923,8 +940,7 @@ header ul li:hover .sub-menu-1 ul li{
   header ul li i{
 font-size: 16px;
 padding: -20px 0px;
-/* margin-left: 120px; */
-/* display: absolute; */
+
 }
 
 header ul li{
@@ -1112,7 +1128,7 @@ height: 300px;
 
 .blog2 .image3{
   width: 350px;
-  height: 300px;
+  height: 320px;
 }
 
 .blog2 h5{
