@@ -11,19 +11,25 @@ html {
   box-sizing: border-box;
 }
 
+
 body{
-    width: 100%;
-    font-family: inherit;
-    background: linear-gradient(150deg, #E7EFF4 18%, #F9FAFA 30.2%);  
-    background-image: 
-      radial-gradient(at 9% 89%, hsla(315, 90%, 93%, 1) 0px, transparent 50%),
-      radial-gradient(at 72% 6%, hsla(331, 74%, 64%, 1) 0px, transparent 50%),
-      radial-gradient(at 24% 19%, hsla(14, 90%, 74%, 1) 0px, transparent 50%),
-      radial-gradient(at 65% 6%, hsla(6, 79%, 76%, 1) 0px, transparent 50%),
-      radial-gradient(at 20% 98%, hsla(316, 72%, 64%, 1) 0px, transparent 50%),
-      radial-gradient(at 44% 9%, hsla(40, 96%, 77%, 1) 0px, transparent 50%),
-      radial-gradient(at 10% 9%, hsla(76, 65%, 93%, 1) 0px, transparent 50%);
+  width: 100%;
+  font-family: inherit;
+  background: linear-gradient(150deg, #E7EFF4 18%, #F9FAFA 30.2%);  
+  background-image: 
+    radial-gradient(at 9% 89%, hsla(315, 90%, 93%, 1) 0px, transparent 50%),
+    radial-gradient(at 72% 6%, hsla(331, 74%, 64%, 1) 0px, transparent 50%),
+    radial-gradient(at 24% 19%, hsla(14, 90%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 65% 6%, hsla(6, 79%, 76%, 1) 0px, transparent 50%),
+    radial-gradient(at 20% 98%, hsla(316, 72%, 64%, 1) 0px, transparent 50%),
+    radial-gradient(at 44% 9%, hsla(40, 96%, 77%, 1) 0px, transparent 50%),
+    radial-gradient(at 10% 9%, hsla(76, 65%, 93%, 1) 0px, transparent 50%);
 }
+/* body{
+  width: 100%;
+  font-family: inherit;
+  background: linear-gradient(150deg, #E7EFF4 18%, #F9FAFA 30.2%);  
+} */
 
 
 .section-space{
@@ -59,7 +65,6 @@ header{
   background-color: #fff;
   position: fixed;
   width: 100%;
-/*   overflow: hidden; */
   z-index: 100;
   padding: 20px 80px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06)
@@ -74,7 +79,7 @@ header .business-logo{
 }
 
 header ul li i{
-font-size: 12px;
+font-size: 10px;
 padding-left: 10px;
 }
 
@@ -86,7 +91,7 @@ header li{
 
 header li a{
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: #0e0e0e;
 }
@@ -99,12 +104,12 @@ header ul {
 }
 
 header input{
-  height: 3rem;
+  height: 2.5rem;
   width: 100%;
-  font-size: 16px;
-  padding: 0 1.25em;
+  font-size: 12px;
+  padding: 0 1.2em;
   border: 1px solid #0e0e0e;
-  border-radius: 4px;
+  border-radius: 3px;
   outline: none;
   position: relative;
   border-top-right-radius: 0;
@@ -116,8 +121,8 @@ header label i{
   position: absolute;
   padding: 15px;
   background: #9CBA42;
-  height: 3rem;
-  font-size: 18px;
+  height: 2.5rem;
+  font-size: 12px;
   color: #fff;
   border: none;
 
@@ -136,9 +141,9 @@ header .btn-mobile{
 }
 
 header button.btn {
-  min-width: 150px;
-  height: 48px;
-  font-size: 16px;
+  min-width: 100px;
+  height: 2.5rem;
+  font-size: 12px;
   color: #fff;
   padding: 5px 15px;
   font-weight: 600;
@@ -148,7 +153,8 @@ header button.btn {
   background: #fff;
   border: 2px solid #9CBA42;
   color: #495057;
-  position: relative
+  position: relative;
+  margin-left: 50px
 }
 
 header button.btn:hover{
@@ -217,10 +223,6 @@ header .toggle-collapse .toggle-icons i{
     color: #525252;
 }
 
-/* .collapse{
-    height: 40rem;
-}
- */
 .section-1{
   padding-top: 70px;
 }
@@ -246,10 +248,10 @@ header .toggle-collapse .toggle-icons i{
   line-height: 32px
 }
 .project input{
-height: 4rem; 
+height: 3.5rem; 
 width: 70%; 
 font-family: inherit;
-font-size: 16px; 
+font-size: 14px; 
 padding: 0 1.25em;
 border: 1px solid transparent; 
 border-radius: 5px; 
@@ -259,10 +261,10 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 
 .project button {
   min-width: 130px;
-  height: 4rem;
+  height: 3.33rem;
   color: #fff;
   padding: 3px 10px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -273,7 +275,7 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   border: none;
   background-color: #ff5588; 
   white-space: nowrap; 
-  /* box-shadow: 0 5px #ff0a78; */
+  box-shadow: 0 5px #ff0a78;
 }
 .project button:hover {
   box-shadow: 0 3px #ff0a78;
@@ -309,6 +311,10 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   color: #ff5588;
 }
 
+.project-picture-section{
+  margin-left: -225px
+}
+
 .project-picture-section .image{
   width: 100%;
   height: auto;
@@ -318,17 +324,20 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 
 }
 
+
 .project-picture-section .team{
 background-color: #ffffff;
-width: 100%;
+width: 600px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 border-radius: 4px; 
 border-top-right-radius: 0;
 border-top-left-radius: 0;
+
 }
 
 .project-picture-section h3{
-font-size: 24px; 
+width: 100%;
+font-size: 22px; 
 padding: 20px 30px; 
 color: #0e0e0e;
 font-weight:600;
@@ -355,14 +364,14 @@ border-radius: 50%;
 
 .project-picture-section .topset h6{
 padding: 35px 20px 5px 0; 
-font-size: 14px; 
+font-size: 12px; 
 font-weight: 500; 
 color: #0e0e0e;
 }
 
 .project-picture-section .topset i{
-font-size: 24px; 
-padding: 30px 20px 0 10px;
+font-size: 20px; 
+padding: 33px 20px 0 10px;
 color: #0e0e0e;
 }
 
@@ -378,7 +387,7 @@ color: #0e0e0e;
 }
 
 .articles .icons-div ion-icon{
-   font-size: 24px; 
+   font-size: 22px; 
   background-color: #ff5588; 
   border-radius: 50%; 
   padding: 20px; 
@@ -408,7 +417,8 @@ border-left: none;
 border-top: none; 
 border-bottom: none; 
 padding: 5px 20px; 
-font-size: 16px;
+height: 3.5rem;
+font-size: 14px;
 border-radius: 5px;
 cursor: pointer
 }
@@ -554,7 +564,7 @@ margin-top: 40px;
 .blog2 .topset2{
 background-color: #ffffff; 
 width: 350px; 
-height: 450px; 
+height: 550px; 
 border-radius: 4px; 
 border-top-right-radius: 0; 
 border-top-left-radius: 0;
@@ -569,7 +579,7 @@ font-size: 12px;
 padding: 30px 30px; 
 color:#328BCE;
 }
-
+ 
 .blog2 h3 {
  font-size: 20px; 
  padding: 5px 30px; 
@@ -596,7 +606,7 @@ color: #0e0e0e;
 }
 
 .blog2 .topset2 i{
-font-size: 20px; 
+font-size: 18px; 
 padding-right: 50px;
 color: #0e0e0e;
 }
@@ -604,6 +614,10 @@ color: #0e0e0e;
 .blog2 .profile-post{
  margin-top: 30px;
  padding: 5px 30px
+}
+
+.blog2 .profile-post p{
+  font-size: 12px
 }
 
 .blog2 .profile-sec{
@@ -616,6 +630,13 @@ color: #0e0e0e;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+ 
+}
+
+.load .btn{
+  font-size: 14px;
+  padding: 10px 15px;
+  height: 50px
 }
 
 .features-div{
@@ -629,10 +650,10 @@ color: #0e0e0e;
 }
 
 .features-writer i{
-  font-size: 22px;
+  font-size: 20px;
   background-color: #ff5588;
   border-radius: 50%;
-  padding: 20px;
+  padding: 22px;
   color: #fff;
 }
 
@@ -642,7 +663,7 @@ color: #0e0e0e;
 }
 
 .features .pagination i{
-  font-size: 22px;
+  font-size: 18px;
   padding: 20px;
   background-color: #ff5588;
   border-radius: 50%;
@@ -675,13 +696,13 @@ color: #0e0e0e;
 }
 
 .team-blog .team-content h4{
-  font-size: 24px;
+  font-size: 20px;
   color: #0e0e0e;
   font-weight: 600
 }
 
 .team-blog .team-content p{
-  font-size: 18px;
+  font-size: 14px;
   color: #0a0a0a;  
 }
 
@@ -724,16 +745,25 @@ color: #0e0e0e;
   display: flex;
   justify-content: space-between;
 }
+
+.news .label-div .btn{
+height: 3.08rem;
+font-size: 14px;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+}
 .news input{
-height: 3.7rem; 
+height: 3rem; 
 width: 600px; 
-font-size: 16px; 
+font-size: 14px; 
 border: 1px solid #eee; 
 border-radius: 4px; 
 outline: none; 
 box-shadow: 0 3px 1px -2px #ccc, 0 2px 2px 0 #ccc, 0 1px 5px 0 #ccc;
 position: relative;
 padding-left: 60px;
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
 }
 
 .news label{
@@ -743,12 +773,12 @@ padding-left: 60px;
 
 .news i{
   position: absolute;
-  top: 10px;
+  top: 5px;
   left: 10px;
   padding-right: 30px;
   z-index: 99;
   padding: 10px;
-  font-size: 24px;
+  font-size: 20px;
   color: #ff5588
     
 }
@@ -759,8 +789,10 @@ padding-left: 3px
 }
 
 .news h2{
-  font-size: 24px;
-  line-height: 52px;
+  width: 40%;
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 20px
 }
 
 .support{
