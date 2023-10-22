@@ -1099,15 +1099,21 @@ font-size: 16px;
     font-size: 45px;
   }
   
+  .project-picture-section{
+    margin-left: 0
+  }
+  .project-picture-section .team{
+    width: 345px
+  }
   .project-picture-section h3{
-    font-size: 24px
+    font-size: 18px
   }
   
   .project-picture-section .topset h6{
     font-size: 12px;
   }
   .project-picture-section .topset i{
-    font-size: 24px
+    font-size: 16px
   }
   
   .profile-picture{
@@ -1129,7 +1135,7 @@ height:40px;
     margin-top: 30px
   }  
   .section-2 .topset i{
-    font-size: 24px
+    font-size: 20px
   }
 
   .flex-sec .blog1{
@@ -1141,7 +1147,7 @@ font-size: 12px;
   }
   
   .blog1 .topset .profile-sec i{
-    font-size: 22px
+    font-size: 18px
   }
 
   
@@ -1168,7 +1174,7 @@ font-size: 14px;
 }
 
 .blog2 h3 {
- font-size: 24px; 
+ font-size: 22px; 
 }
 
 .blog2 .topset2 .profile-sec .profile{
@@ -1221,6 +1227,7 @@ font-size: 20px;
 }
   
   .news h2{
+    width: 100%;
     font-size: 22px;
     line-height: 30px
   }
